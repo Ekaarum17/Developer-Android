@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ekaapp.MainActivity">
+    <item
+        android:id="@+id/mi_input_control_activity"
+        android:title="Input Control Activity"
+        android:icon="@drawable/ic_control" />
+    <item
+        android:id="@+id/mi_listview_activity"
+        android:title="Listview Activity"
+        android:icon="@drawable/ic_listview" />
+    <item
+        android:id="@+id/mi_recycleview_activity"
+        android:title="Recycle Activity"
+        android:icon="@drawable/ic_recycleview"/>
+    <item
+        android:id="@+id/mi_quit"
+        android:title="Quit"
+        android:icon="@drawable/ic_quit" />
+</menu>
