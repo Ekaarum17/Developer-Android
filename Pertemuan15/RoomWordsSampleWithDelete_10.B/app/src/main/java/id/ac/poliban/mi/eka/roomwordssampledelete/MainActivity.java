@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        if (getSupportActionBar()!=null)getSupportActionBar().setTitle("Room Words Sample_puteri");
+        if (getSupportActionBar()!=null)getSupportActionBar().setTitle("Room Words Sample_Eka");
 
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
         final WordListAdapter adapter = new WordListAdapter(this);
